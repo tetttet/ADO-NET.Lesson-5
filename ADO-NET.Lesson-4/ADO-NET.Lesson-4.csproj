@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>ADO_NET.Lesson_4</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ADO-NET.Lesson-3\Library.Repositories\Library.Repositories.csproj" />
+  </ItemGroup>
+
+	<!--<ItemGroup>
+		<ProjectReference Include="..\Library.Repositories\Library.Repositories.csproj" />
+		<ProjectReference Include="..\DataReaderToObject\DataReaderToObject.csproj" />
+	</ItemGroup>-->
+
+</Project>
